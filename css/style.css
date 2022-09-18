@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    
+}
+#navbar .into{
+    flex: 1px;
+}
+#navbar h1{
+    padding-top:  20px;
+    float: left;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar ul{
+    list-style: none;
+}
+#navbar ul li{
+    display: inline-block;
+}
+#navbar ul li a{
+    display:inline-block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#navbar .search{
+    width: 330p;
+    float: right;
+    margin-left: 270px;
+}
+#navbar .search .btn{
+    background-color: #333;
+    cursor: pointer;
+}
+#show{
+    background-image: url(../img/stars.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 1000px;
+    color: #fff;
+}
+#show .show-content{
+    text-align: center;
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#show .show-content h1{
+    font-size: 60px;
+    line-height: 30px;
+}
+#show .show-content p{
+    padding: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
+#show .bttn{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    color: blue;
+    padding: 10px;
+}
+#show .btns{
+    background-color: blue;
+    cursor: pointer;
+    color: #333;
+    padding: 10px;
+}
+#home .ab{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+#home .sec{
+    display: inline-block;
+    width: 33%;
+    padding: 50px;
+    text-align: center;
+    
+}
+#home img {
+    flex-wrap: wrap;
+    margin: 10px; 
+    max-width: 100%;
+    gap: 40px;
+    
+}
+
+
+#home a.bt{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+#home .sec p{
+    padding: 20px;
+}
+#ser .se{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+#ser .ta{
+    padding: 50px;
+    border:none;
+    margin: 30px;
+    width: 90%;
+}
+#ser .hd{
+    background-color: black;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+#ser .a{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+#ser .b{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+#box{
+    padding: 100px;
+}
+#box .pp{
+    background-color: midnightblue;
+    padding: 30px;
+    color: #fff;
+}
+#box p{
+    text-align: center;
+    padding: 20px;
+}
+#box h6{
+    text-align: center;
+}
+#box .ppp{
+    padding: 30px;
+}
+#box .ppp:hover{
+    background-color: rgb(139, 157, 204);
+}
+#form .fm{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+.us .bbb{
+    background-color: rgb(34, 34, 169);
+    cursor: pointer;
+    color:#fff;
+    padding: 10px;
+    border-radius: 10%;
+    margin-top: 100px;
+}
+.fr{
+    display:inline;
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+}
+#foot{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    margin-top: 200px;
+}
+
+
